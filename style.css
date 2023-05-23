@@ -47,11 +47,9 @@ section{
 }
 
 .InputSection{
-    border: solid 1px crimson;
     flex: 2;
 }
 .OutputSection{
-    border: solid 1px lightseagreen;
     flex: 1;
 }
 
