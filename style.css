@@ -39,6 +39,7 @@ header{
 h1{font-size: 2rem; font-weight: lighter;}
 
 section{
+    
     display: flex;
     padding: 4rem 6rem;
     gap: 4rem;
@@ -46,10 +47,12 @@ section{
 }
 
 .InputSection{
-    flex-grow: 3;
+    border: solid 1px crimson;
+    flex: 2;
 }
 .OutputSection{
-    flex-grow: 2;
+    border: solid 1px lightseagreen;
+    flex: 1;
 }
 
 article{
