@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Alura Latam</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/Unofficial_JavaScript_logo_2.svg.png" type="image/x-icon">
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</head>
+<body>
+    <header>
+        <img class= "AluraIcon"src="/assets/alura-removebg-preview.png" alt="">
+        <h1 >Encriptador de texto con JS.</h1>
+    </header>
+    <section >
+        <article class="InputSection">
+            <textarea id="Input" cols="30" rows="10" placeholder="Escribe aquí!"></textarea>
+            <button id="ProcessButton" onclick="ProcessText();" autofocus>Procesar texto</button>
+            <button onclick="CleanInputText();" >Limpiar</button>
+            <button id="SwitchButton" onclick="SwitchEncryptDecrypt();">Modo: Encriptador</button>
+        </article>
+
+        <article class="OutputSection">
+            <textarea id="Output" cols="30" rows="10" disabled placeholder="El resultado aparecerá aqui"></textarea>
+            <button onclick="CopyToClipboard();">Copiar</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>Hecho por Antonio A. Medina M.</p>
+        <p>2023</p>
+        <p>Proyecto para Alura Latam</p>
+    </footer>
+</body>
+</html>

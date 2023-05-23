@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+:root{
+    --PrimaryColor: #018673;
+    --DarkerPrimaryColor: #005f51;
+    --BorderRadius: 20px;
+    --BgColor: #202124;
+    --DarkerBgColor: #17171a;
+    --LighterBgColor: #303134;
+    --AccentColor: #95D9C3;
+    --Accent2Color: #A4F9C8;
+    --Accent3Color: #A7FFF6;
+}
+
+
+body{
+    background-color: var(--BgColor); 
+    color: aliceblue;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: var(--DarkerBgColor);
+    align-items:center;
+}
+
+.AluraIcon{width: 3rem; height: 3rem; margin: 2rem 3rem;}
+
+h1{font-size: 2rem; font-weight: lighter;}
+
+section{
+    display: flex;
+    padding: 4rem 6rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.InputSection{
+    flex-grow: 3;
+}
+.OutputSection{
+    flex-grow: 2;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+#Input{
+    background-color: var(--Accent2Color);
+}
+#Output{
+    background-color: var(--Accent3Color);
+}
+
+
+
+
+textarea{
+    resize: none;
+    overflow: auto;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+}
+
+/* Button Styles */
+
+button{
+    border: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--DarkerBgColor);
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: baseline;  
+}
+p{
+    text-align: center;
+}
